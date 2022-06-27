@@ -1,9 +1,14 @@
-/**
- * @format
- */
+import CategoryCard from "./CategoryCard";
+import CustomButton from "./CustomButton";
+import TabIcon from "./TabIcon";
+import TrendingCard from "./TrendingCard";
+import Viewers from "./Viewers";
 
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
-
-AppRegistry.registerComponent(appName, () => App);
+export {
+    CategoryCard,
+    CustomButton,
+    TabIcon,
+    TrendingCard,
+    Viewers
+    
+}
